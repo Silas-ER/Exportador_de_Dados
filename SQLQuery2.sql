@@ -1,5 +1,5 @@
 
-USE [SATKPRODUMAR]
+USE [DATABASE]
 GO
 
 SET ANSI_NULLS ON
@@ -8,7 +8,7 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
-CREATE VIEW [dbo].[vwEntradasG2a] AS
+CREATE VIEW [dbo].[vwEntradasG] AS
 SELECT MOVIMENTO.Chave_fato,
 	MOVIMENTO.Cod_rotina, 
 	MOVIMENTO.Cod_ccustoD, 
