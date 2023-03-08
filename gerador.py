@@ -42,11 +42,11 @@ def comunica_laco():
         return 'F'
     
 conn = pyodbc.connect('Driver={SQL Server};'
-                        'Server=SERVIDOR;'                      
-                        'Database=DATA;'
-                        'UID=USUARIO;'
-			                  'PWD=PASSWORD;'                     
-                        'Trusted_Connection=yes;')
+                      'Server=SERVIDOR;'                      
+                      'Database=DATA;'
+                      'UID=USUARIO;'
+		      'PWD=PASSWORD;'                     
+                      'Trusted_Connection=yes;')
 cursor = conn.cursor()
 
 validacao = 'T'
